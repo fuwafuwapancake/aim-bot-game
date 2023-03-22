@@ -21,23 +21,28 @@
             font-weight: bold;
         }
     </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    
+    <script type="text/javascript">
+            $(document).ready(function(){
+                $('.slider').bxSlider({
+                    auto: true,
+                    pause: 5000,
+                });
+            });
+    </script>
 </head>
 
 <body>
 
     <h1>ぶいすぽっ！紹介サイト</h1>
-    <div class="slide-wrap">
-        <div class="slide-box">
-          <a href="VspoTOP_3_2.png">
-            <img src="VspoTOP_3_2.png">
-            <p>フワフワ1</p>
-          </a>
-        </div>
-        <div class="slide-box">
-          <a href="VspoTOP_1_2.png">
-            <img src="VspoTOP_1_2.png">
-            <p>通常１</p>
-          </a>
+    <div class="slider">
+        <img src="VspoTOP_1_2.png" width="500" height="400" alt="">
+        <img src="VspoTOP_3_2.png" width="500" height="400" alt="">
+        <img src="VspoTOP_2_2.png" width="500" height="400" alt="">
+        <img src="VspoTOP_4_2.png" width="500" height="400" alt="">
         </div>
     <h2>メンバー一覧</h2>
     <h3>１．花芽 すみれ</h3>
